@@ -1,22 +1,12 @@
-import { Roboto, Space_Mono, Jersey_10 } from "next/font/google";
+import { Jersey_10 } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 
-export const roboto = Roboto({
-	subsets: ["latin"],
-	weight: ["400", "500", "700"],
-	display: "swap",
-	variable: "--font-roboto",
-});
-
-export const spaceMono = Space_Mono({
+const Jersey = Jersey_10({
 	subsets: ["latin"],
 	weight: "400",
 	display: "swap",
-	variable: "--font-space-mono",
+	variable: "--font-jersey",
 });
 
-export const jersey10 = Jersey_10({
-	subsets: ["latin"],
-	weight: "400",
-	display: "swap",
-	variable: "--font-jersey-10",
-});
+export { Jersey, GeistSans, GeistMono };

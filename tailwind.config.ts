@@ -19,9 +19,9 @@ const config = {
 		},
 		extend: {
 			fontFamily: {
-				roboto: ["var(--font-roboto)"],
-				"space-mono": ["var(--font-space-mono)"],
-				"jersey-10": ["var(--font-jersey-10)"],
+				jersey: ["var(--font-jersey)"],
+				"geist-sans": ["var(--font-geist-sans)"],
+				"geist-mono": ["var(--font-geist-mono)"],
 			},
 			colors: {
 				border: "hsl(var(--border))",

@@ -1,9 +1,10 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+
 import Navbar from "@/components/navbar";
 import Topbar from "@/components/topbar";
 
-import { roboto, spaceMono, jersey10 } from "@/lib/fonts";
+import { Jersey, GeistSans, GeistMono } from "@/lib/fonts";
 import "@/styles/tailwind.css";
 import "@/styles/app.css";
 
@@ -16,10 +17,10 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					"relative h-screen w-full antialised font-roboto text-md",
-					roboto.variable,
-					spaceMono.variable,
-					jersey10.variable
+					"antialised relative h-screen w-full font-geist-sans text-sm text-foreground",
+					Jersey.variable,
+					GeistSans.variable,
+					GeistMono.variable
 				)}
 			>
 				<ThemeProvider
@@ -28,7 +29,7 @@ export default function RootLayout({
 					enableSystem
 					disableTransitionOnChange
 				>
-					<header className="sticky top-0 z-50 w-full border-boder/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+					<header className="border-boder/40 sticky top-0 z-50 mb-8 w-full border-b border-slate-900/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 dark:border-slate-50/[0.06]">
 						<Topbar />
 						<Navbar />
 					</header>

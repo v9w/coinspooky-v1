@@ -17,7 +17,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={cn(
-					"antialised relative h-screen w-full font-geist-sans text-sm text-foreground",
+					"antialised relative h-screen w-full font-geist-sans text-sm",
 					Jersey.variable,
 					GeistSans.variable,
 					GeistMono.variable

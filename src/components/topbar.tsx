@@ -5,7 +5,7 @@ export default function Topbar() {
 	return (
 		<div className="w-full border-b border-slate-900/10 dark:border-slate-50/[0.06]">
 			<Container className="h-10">
-				<div className="ml-auto font-geist-mono text-[0.7rem] -tracking-[0.06em]">
+				<div className="ml-auto font-geist-mono text-[0.7rem] -tracking-[0.05em]">
 					<Link
 						href="/login"
 						className="pointer transition-colors duration-300 hover:text-primary"

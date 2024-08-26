@@ -1,1 +1,14 @@
-/** Global Styles */
+* {
+	overscroll-behavior: none;
+}
+
+body {
+	color: hsl(var(--primary-foreground));
+	background: linear-gradient(
+			to bottom,
+			transparent,
+			rgba(var(--bg-gradient-end))
+		)
+		rgba(var(--bg-gradient-start));
+	background-repeat: no-repeat;
+}

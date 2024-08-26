@@ -23,10 +23,10 @@ export default function Navbar() {
 		<Container className="h-24 justify-between">
 			<Logo />
 			<div className="flex items-center space-x-4">
-				<Button className="flex items-center bg-primary p-4 shadow-primary drop-shadow-md transition-colors duration-300 hover:bg-amber-400">
+				<Button className="bg-primary-button shadow-primary-button flex items-center p-4 drop-shadow-md transition-colors duration-300 hover:bg-amber-500">
 					Submit Coin
 				</Button>
-				<Button className="bg-purple-500 text-primary-foreground shadow-purple-500 drop-shadow-md transition-colors duration-300 hover:bg-purple-400">
+				<Button className="bg-secondary-button shadow-secondary-button text-primary-foreground drop-shadow-md transition-colors duration-300 hover:bg-purple-500">
 					<HamburgerMenuIcon />
 				</Button>
 			</div>

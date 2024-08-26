@@ -32,10 +32,12 @@ const config = {
 				primary: {
 					DEFAULT: "hsl(var(--primary))",
 					foreground: "hsl(var(--primary-foreground))",
+					button: "hsl(var(--button-primary))",
 				},
 				secondary: {
 					DEFAULT: "hsl(var(--secondary))",
 					foreground: "hsl(var(--secondary-foreground))",
+					button: "hsl(var(--button-secondary))",
 				},
 				destructive: {
 					DEFAULT: "hsl(var(--destructive))",

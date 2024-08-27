@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { FaBars, FaSearch, FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function NavbarButtons() {
+const NavbarButtons = () => {
 	return (
 		<div className="flex items-center justify-center space-x-4">
 			<Button
@@ -20,9 +20,9 @@ function NavbarButtons() {
 			</Button>
 		</div>
 	);
-}
+};
 
-function NavbarSearch() {
+const NavbarSearch = () => {
 	return (
 		<div className="relative mx-12 hidden max-w-96 flex-1 md:flex">
 			<span className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
@@ -35,9 +35,9 @@ function NavbarSearch() {
 			/>{" "}
 		</div>
 	);
-}
+};
 
-function NavbarSocials() {
+const NavbarSocials = () => {
 	return (
 		<>
 			<Link
@@ -56,7 +56,7 @@ function NavbarSocials() {
 			</Link>
 		</>
 	);
-}
+};
 
 export default function Navbar() {
 	return (

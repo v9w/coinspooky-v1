@@ -21,7 +21,7 @@ export default function RootLayout({
 					GeistMono.variable
 				)}
 			>
-				<header className="sticky top-0 z-50 mb-8 w-full bg-slate-950/75 shadow-primary drop-shadow-md backdrop-blur">
+				<header className="sticky top-0 z-50 mb-8 w-full bg-slate-950/75 shadow-purple-950/90 drop-shadow-md backdrop-blur">
 					<Topbar />
 					<Navbar />
 				</header>

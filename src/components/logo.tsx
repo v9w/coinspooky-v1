@@ -7,10 +7,11 @@ export default function Logo() {
 			<Image
 				src="/images/logo.svg"
 				alt="COINSPOOKY Logo"
-				width={35}
-				height={35}
+				width={32}
+				height={32}
+				className="w-6 md:w-8"
 			/>
-			<h1 className="font-jersey text-4xl lowercase lg:text-5xl">COINSPOOKY</h1>
+			<h1 className="font-jersey text-4xl lowercase md:text-5xl">COINSPOOKY</h1>
 		</Link>
 	);
 }

@@ -5,7 +5,7 @@ export default function Container({
 	className,
 }: {
 	children: React.ReactNode;
-	className?: string;
+	className?: CSSPropertyRule | string;
 }) {
 	return (
 		<div
